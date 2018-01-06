@@ -1,0 +1,22 @@
+﻿#reload countrycolors
+
+SGC = {
+	color_ui = rgb { 23, 106, 137 }
+	color = rgb { 64, 148, 208 }	
+}
+
+PRS = {
+	color = HSV { 151, 116, 0 }
+	color_ui = rgb { 138 155 116 }
+}
+
+NGU = {
+	color = rgb { 238, 11, 12 }
+	color_ui = rgb { 174, 11, 12 } 
+}
+
+RUS = {
+	color = rgb { 32, 119, 222 }
+	color_ui = rgb { 15, 92, 166 }
+}
+

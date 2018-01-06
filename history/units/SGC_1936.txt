@@ -1,0 +1,311 @@
+﻿division_template = {
+	name = "Infanterie-Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+	}
+}
+division_template = {
+	name = "Panzer-Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Gebirgs-Brigade"		# Gebirgsbrigade
+	#Note: precursor to Gebirgs-Divisions
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Kavallerie-Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+
+	##### Oberkommando des Heeres #####
+	### 1. Armee ###
+	division= {	
+		name = "1. Infanterie-Division"
+		location = 9503
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Infanterie-Division"
+		location = 9503
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Infanterie-Division"
+		location = 9503
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Infanterie-Division"
+		location = 9503
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5. Infanterie-Division"
+		location = 9503
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6. Infanterie-Division"
+		location = 9503
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "7. Infanterie-Division"
+		location = 9503
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "8. Infanterie-Division"
+		location = 9503
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "9. Infanterie-Division"
+		location = 9503
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "10. Infanterie-Division"
+		location = 9503
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1. Kavallerie-Brigade"
+		location = 9503
+		division_template = "Kavallerie-Brigade"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Kavallerie-Brigade"
+		location = 9503
+		division_template = "Kavallerie-Brigade"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Kavallerie-Brigade"
+		location = 9503
+		division_template = "Kavallerie-Brigade"
+		start_experience_factor = 0.3
+	}
+	### II. Armee ###
+	division= {	
+		name = "11. Infanterie-Division"
+		location = 11544
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "12. Infanterie-Division"
+		location = 11544
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "13. Infanterie-Division"
+		location = 11544
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "14. Infanterie-Division"
+		location = 11544
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "15. Infanterie-Division"
+		location = 11544
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "16. Infanterie-Division"
+		location = 11544
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1. Gebirgs-Brigade"
+		location = 11544
+		division_template = "Gebirgs-Brigade"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Gebirgs-Brigade"
+		location = 11544
+		division_template = "Gebirgs-Brigade"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Gebirgs-Brigade"
+		location = 11544
+		division_template = "Gebirgs-Brigade"
+		start_experience_factor = 0.3
+	}
+	###III. Armee###
+	division= {	
+		name = "17. Infanterie-Division"
+		location = 692
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "18. Infanterie-Division"
+		location = 692
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "19. Infanterie-Division"
+		location = 692
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "20. Infanterie-Division"
+		location = 692
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "21. Infanterie-Division"
+		location = 692
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Panzer-Division"
+		location = 692
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5. Infanterie-Division"
+		location = 692
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.3
+	}
+}
+
+### Air oob
+air_wings = {
+
+	### III. Luftkreiskommando -- Breslau ###
+	50 = { 
+		# Kampfgeschwader 253 'General Wever'		
+		tac_bomber_equipment_0 = {		# He 45 or Do 23 ?
+			owner = "GER" 
+			amount = 120
+		}
+		name = "Kampfgeschwader 253"
+		# Sturzkampfgeschwader 162		
+		CAS_equipment_1 =  {			# Hs 123
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Sturzkampfgeschwader 162"	
+	}
+
+	### IV. Luftkreiskommando -- Kassel ###
+	17 = { 
+		# Jagdgeschwader 134 'Horst Wessel'		
+		fighter_equipment_0 =  {		# He 51 # Ar 68
+			owner = "GER" 
+			amount = 120
+		}
+		name = "Jagdgeschwader 134"
+		# Kampfgeschwader 152 'Hindenburg'	
+		tac_bomber_equipment_1 = {		# Do 23
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Kampfgeschwader 152"
+		# Kampfgeschwader 155	
+		tac_bomber_equipment_0 = {		# He 45 or Do 23 ? (light bomber)
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Kampfgeschwader 155"
+	}
+
+	### V. Luftkreiskommando -- Munich ###
+	52 = { 
+		# Jagdgeschwader 136		
+		fighter_equipment_0 =  {		# He 51
+			owner = "GER" 
+			amount = 40
+		}
+		name = "Jagdgeschwader 136"
+		# Kampfgeschwader 154	
+		tac_bomber_equipment_0 = {		# Do 23
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Kampfgeschwader 154"
+	}
+
+	### VI. Luftkreiskommando -- Kiel ###
+	28 = { 
+		# Küstenfliegergruppe 106		
+		nav_bomber_equipment_1 =  {		# He 59, Do 18
+			owner = "GER" 
+			amount = 72
+		}
+		name = "Küstenfliegergruppe 106"
+		# Küstenfliegergruppe 206
+	}
+}
+

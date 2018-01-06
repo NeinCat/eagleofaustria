@@ -1,0 +1,83 @@
+bookmarks = {
+	bookmark = {
+		name = "WIND_OF_CHANGE_NAME"
+		desc = "WIND_OF_CHANGE_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "AUS"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_WIND_OF_CHANGE_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"USA"={
+			history = "USA_WIND_OF_CHANGE_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"ENG"={
+			history = "ENG_WIND_OF_CHANGE_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"AUS"={
+			history = "AUS_WIND_OF_CHANGE_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"NGU"={
+			history = "NGU_WIND_OF_CHANGE_DESC"
+			ideology = communism
+			ideas = {
+			}	
+			focuses = {
+			}		
+		}
+		
+		"ITA"={
+			history = "ITA_WIND_OF_CHANGE_DESC"
+			ideology = neutrality
+			ideas = {
+			}	
+			focuses = {
+			}			
+		}
+		
+		"RUS"={
+			history = "RUS_WIND_OF_CHANGE_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+
+		"---"={
+			history = "OTHER_WIND_OF_CHANGE_DESC"
+		}
+		
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

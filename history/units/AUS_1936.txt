@@ -1,0 +1,669 @@
+﻿division_template = {
+	name = "Infanterie Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   # Pioneer Bn
+	}
+}
+
+division_template = {
+	name = "Motorisierte" 			
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }	
+	}
+	support = {
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Alpenjäger Division"
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   # Pioneer Bn
+	}
+}
+
+division_template = {
+	name = "Schnelle Division"  		# Schnelle-Division (cavalry)
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Light tank (tankette) bn
+	}
+}
+
+division_template = {
+	name = "Panzer Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Nationale-Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }   # Pioneer Bn
+	}
+}
+
+units = {
+	##### Österreichisches Bundesheer #####
+	# I Korps
+	division= {	
+		name = "Schnelle Division"
+		location = 11666  # Vienna
+		division_template = "Schnelle Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "Schnelle Division"
+		location = 11666  # Vienna
+		division_template = "Schnelle Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "2. Schnelle Division"
+		location = 11666  # Vienna
+		division_template = "Schnelle Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "1.Infanterie Division"
+		location = 11666  # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "2. Infanterie Division"
+		location = 11666  # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "3. Infanterie Division"
+		location = 11666  # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "4. Infanterie Division"
+		location = 11666  # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "5. Infanterie Division"
+		location = 11666  # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "6. Infanterie Division"
+		location = 11666  # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "7. Infanterie Division"
+		location = 11666  # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "8. Infanterie Division"
+		location = 11666  # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "9. Infanterie Division"
+		location = 11666  # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "10. Infanterie Division"
+		location = 11666  # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "1. Motorisierte Division"
+		location = 11666  # Vienna
+		division_template = "Motorisierte"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	# II Korps - Veneto
+	
+	division= {	
+		name = "1.Panzer Brigade"
+		location = 11584  # Veneto
+		division_template = "Panzer Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "1.Norditalienisch Division"
+		location = 11584  # Veneto
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "2.Norditalienisch Division"
+		location = 11584  # Veneto
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "3.Norditalienisch Division"
+		location = 11584  # Veneto
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "4.Norditalienisch Division"
+		location = 11584  # Veneto
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "5.Norditalienisch Division"
+		location = 11584 # Veneto
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "11. Infanterie Division"
+		location = 11584  # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "12. Infanterie Division"
+		location = 11584  # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "13. Infanterie Division"
+		location = 11584  # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "2.Panzer Brigade"
+		location = 11584  # Veneto
+		division_template = "Panzer Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	
+
+	#III Korps - Ungarn
+	
+	division= {	
+		name = "1.Ungarn Hussar Division"
+		location = 9660  # Pest
+		division_template = "Schnelle Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "2.Ungarn Hussar Division"
+		location = 9660  # Pest
+		division_template = "Schnelle Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "3.Panzer Brigade"
+		location = 9660
+		division_template = "Panzer Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "1.Ungarn Division"
+		location = 9660 
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "2.Ungarn Division"
+		location = 9660  # Veneto
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "3.Ungarn Division"
+		location = 9660 
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "4.Ungarn Division"
+		location = 9660 
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "5.Ungarn Division"
+		location = 9660
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "6.Ungarn Division"
+		location = 9660 
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "7.Ungarn Division"
+		location = 9660 
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "8.Ungarn Division"
+		location = 9660
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.4
+
+	}
+	division= {	
+		name = "14. Infanterie Division"
+		location = 9660 # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "15. Infanterie Division"
+		location = 9660  # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "16. Infanterie Division"
+		location = 3569  # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	#IV Korps - Tschechien
+	
+	division= {	
+		name = "1.Sudeten Panzer Division"
+		location = 11542
+		division_template = "Panzer Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "2.Sudeten Panzer Division"
+		location = 11542
+		division_template = "Panzer Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "1.Böhmische Division"
+		location = 11542 
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "2.Böhmische Division"
+		location = 3569  # Veneto
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "3.Böhmische Division"
+		location = 3569 
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "4.Böhmische Division"
+		location = 3569 
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "5.Böhmische Division"
+		location = 3569
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "6.Böhmische Division"
+		location = 3569 
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "7.Böhmische Division"
+		location = 3569 
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "8.Böhmische Division"
+		location = 3569
+		division_template = "Nationale-Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "17. Infanterie Division"
+		location = 3569  # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {	
+		name = "18. Infanterie Division"
+		location = 3569  # Vienna
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	navy = {
+		name = "K.u.K. Kriegsmarine"
+		base = 11584
+		location = 11584  # Veneto
+		ship = { name = "Wien" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = AUS} } }	
+		ship = { name = "Admiral Spaun" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Budapest" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AUS } } } 		
+		ship = { name = "Mähren" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AUS } } }		
+		ship = { name = "Salzburg" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AUS } } }			
+		ship = { name = "Bayern" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AUS } } }	
+		ship = { name = "Siebenbürgen" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AUS } } }			
+		ship = { name = "Emden" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Jaguar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Leopard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Ozelot" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Tiger" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+	}
+}
+
+
+air_wings = {
+	### I. Luftkreiskommando -- Konigsberg ###
+	155 = { 
+		# Jagdgeschwader 232 	
+		fighter_equipment_0 =  {		# He 51
+			owner = "GER" 
+			amount = 40
+		}
+		name = "Jagdgeschwader 232"
+	}
+
+	### II. Luftkreiskommando -- Berlin ###
+	4 = { 
+		# Jagdgeschwader 132 'Richtofen'		
+		fighter_equipment_0 =  {		# Ar 68
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Jagdgeschwader 132"
+
+		# Kampfgeschwader 153		
+		tac_bomber_equipment_0 = {		# Do 23
+			owner = "GER" 
+			amount = 80
+		}
+		tac_bomber_equipment_0 = {		# Ju 86
+			owner = "GER" 
+			amount = 40
+			version_name = "Ju 86"
+		}
+		name = "Kampfgeschwader 153"
+
+		transport_plane_equipment_1 = {
+			owner = "GER" 
+			amount = 4
+		}
+	}
+
+	9 = { 
+		# Kampfgeschwader 253 'General Wever'		
+		tac_bomber_equipment_0 = {		# He 45 or Do 23 ?
+			owner = "GER" 
+			amount = 120
+		}
+		name = "Kampfgeschwader 253"
+		# Sturzkampfgeschwader 162		
+		CAS_equipment_1 =  {			# Hs 123
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Sturzkampfgeschwader 162"	
+	}
+
+
+	79 = { 
+	
+		fighter_equipment_0 =  {		# He 51 # Ar 68
+			owner = "GER" 
+			amount = 120
+		}
+		name = "Jagdgeschwader 134"
+
+		tac_bomber_equipment_1 = {		# Do 23
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Kampfgeschwader 152"
+
+		tac_bomber_equipment_0 = {		# He 45 or Do 23 ? (light bomber)
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Kampfgeschwader 155"
+	}
+
+
+	104 = { 
+	
+		fighter_equipment_0 =  {		# He 51
+			owner = "GER" 
+			amount = 40
+		}
+		name = "Jagdgeschwader 136"
+
+		tac_bomber_equipment_0 = {		# Do 23
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Kampfgeschwader 154"
+	}
+
+
+	153 = { 
+	
+		nav_bomber_equipment_1 =  {		# He 59, Do 18
+			owner = "GER" 
+			amount = 72
+		}
+		name = "Küstenfliegergruppe 106"
+
+	}
+}

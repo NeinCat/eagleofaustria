@@ -1,0 +1,426 @@
+﻿division_template = {
+	name = "Infanterie-Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	
+	support = {
+        recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Panzer-Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+        motorized = { x = 1 y = 1 }
+	}
+	support = {
+        engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Kavallerie-Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+
+	##### Oberkommando des Heeres #####
+	### 1. Armee (Brandenburg - Division) ###
+	division= {	
+		name = "1. Brandenburg Division"
+		location = 6521
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Brandenburg Division"
+		location = 6521
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Brandenburg Division"
+		location = 6521
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}			
+	division= {	
+		name = "4. Brandenburg Division" 
+		location = 6521
+		division_template = "Infanterie-Division" 
+		start_experience_factor = 0.3
+	}
+		division= {	
+		name = "5. Brandenburg Division"
+		location = 6521
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}			
+	division= {	
+		name = "6. Brandenburg Division" 
+		location = 6521
+		division_template = "Infanterie-Division" 
+		start_experience_factor = 0.3
+	}
+		division= {	
+		name = "7. Brandenburg Division"
+		location = 6521
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}			
+	division= {	
+		name = "1. Husarenbrigade" 
+		location = 6521
+		division_template = "Kavallerie-Brigade" 
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Husarenbrigade" 
+		location = 6521
+		division_template = "Kavallerie-Brigade" 
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1.Preußische Panzerdivision" 
+		location = 6521
+		division_template = "Panzer-Division" 
+		start_experience_factor = 0.3
+	}
+		division= {	
+		name = "2.Preußische Panzerdivision"
+		location = 6521
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.3
+	}
+
+	### 2-nd Army - Poznan Guard Troops
+	
+	division= {	
+		name = "1. Infanterie-Division"
+		location = 6521
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Infanterie-Division"
+		location = 6521
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Infanterie-Division"
+		location = 6521
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}			
+	division= {	
+		name = "4. Infanterie-Division" 
+		location = 6521
+		division_template = "Infanterie-Division" 
+		start_experience_factor = 0.3
+	}
+		division= {	
+		name = "5. Infanterie-Division"
+		location = 6521
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}			
+	division= {	
+		name = "3. Husarenbrigade" 
+		location = 6521
+		division_template = "Kavallerie-Brigade" 
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Husarenbrigade" 
+		location = 6521
+		division_template = "Kavallerie-Brigade" 
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5. Husarenbrigade" 
+		location = 6521
+		division_template = "Kavallerie-Brigade" 
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Husarenbrigade" 
+		location = 6521
+		division_template = "Kavallerie-Brigade" 
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3.Preußische Panzerdivision" 
+		location = 6521
+		division_template = "Panzer-Division" 
+		start_experience_factor = 0.3
+	}
+	
+	###3-rd Army - Danzig###
+	
+	division= {	
+		name = "1. Danziger Division"
+		location = 362
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Danziger Division"
+		location = 362
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Danziger Division"
+		location = 362
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}			
+	division= {	
+		name = "4. Danziger Division" 
+		location = 362
+		division_template = "Infanterie-Division" 
+		start_experience_factor = 0.3
+	}
+		division= {	
+		name = "5. Danziger Division"
+		location = 362
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6. Danziger Division"
+		location = 362
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "7. Danziger Division"
+		location = 362
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "8. Danziger Division"
+		location = 362
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}			
+	division= {	
+		name = "9. Danziger Division" 
+		location = 362
+		division_template = "Infanterie-Division" 
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "10. Danziger Division"
+		location = 362
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4.Preußische Panzerdivision" 
+		location = 362
+		division_template = "Panzer-Division" 
+		start_experience_factor = 0.3
+	}
+	
+	###Konigsberg Armee###
+	
+	division= {	
+		name = "1. Königsberger Division"
+		location = 2256
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Königsberger Division"
+		location = 2256
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Königsberger Division"
+		location = 2256
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}			
+	division= {	
+		name = "4. Königsberger Division" 
+		location = 2256
+		division_template = "Infanterie-Division" 
+		start_experience_factor = 0.3
+	}
+		division= {	
+		name = "5. Königsberger Division"
+		location = 2256
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6. Königsberger Division"
+		location = 2256
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "7. Königsberger Divisionn"
+		location = 2256
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1. Ulan-Division" 
+		location = 2256
+		division_template = "Kavallerie-Brigade" 
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Ulan-Division" 
+		location = 2256
+		division_template = "Kavallerie-Brigade" 
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3.Ulan-Division" 
+		location = 2256
+		division_template = "Kavallerie-Brigade" 
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4.Ulan-Division" 
+		location = 2256
+		division_template = "Kavallerie-Brigade" 
+		start_experience_factor = 0.3
+	}
+	##### NAVAL UNITS #####
+	navy = {
+		name = "Preußische Militärflotte"
+		base = 321
+		location = 321  
+		ship = { name = "Preußen" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Preußen Class" } } }	
+		ship = { name = "Prinz von Preußen" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
+		ship = { name = "Posen" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER } } } 		
+		ship = { name = "Berlin" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER } } }		
+		ship = { name = "Königsberg" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }			
+		ship = { name = "von Tirpitz" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }	
+		ship = { name = "Danzig" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }			
+		ship = { name = "Bismarck" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Jaguar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Leopard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Luchs" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Tiger" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+	}
+	navy = {
+		name = "Ostseeflotte"
+		base = 6332
+		location = 6332  # Konigsberg
+		ship = { name = "Friedrich der Große" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Großes Preußen" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }		
+		ship = { name = "Möwe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Albatros" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Seeadler" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Greif" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Falke" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Kondor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Wolf" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Iltis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+	}
+	
+	navy = {
+		name = "Unterseebootsflotte Weddigen"
+		base = 6389
+		location = 6389  # Kiel
+		ship = { name = "U-1" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
+		ship = { name = "U-2" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
+		ship = { name = "U-3" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
+		ship = { name = "U-4" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
+		ship = { name = "U-5" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
+		ship = { name = "U-6" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
+		ship = { name = "U-7" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
+		ship = { name = "U-8" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
+	}
+}
+
+### Air oob
+air_wings = {
+	### I. Luftkreiskommando -- Konigsberg ###
+	5 = { 
+		# Jagdgeschwader 232 	
+		fighter_equipment_0 =  {		# He 51
+			owner = "GER" 
+			amount = 40
+		}
+		name = "Jagdgeschwader 232"
+	}
+
+	### II. Luftkreiskommando -- Berlin ###
+	64 = { 
+		# Jagdgeschwader 132 'Richtofen'		
+		fighter_equipment_0 =  {		# Ar 68
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Jagdgeschwader 132"
+		ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_0).
+			modifier="fighter_genius"
+			name="Erich"
+			surname="Hartmann"
+			callsign="Bubi"
+			portrait=1 # Pick random index here, or make special GFX_GER_ace_Erich_Hartmann to override.
+		}
+		# Kampfgeschwader 153		
+		tac_bomber_equipment_0 = {		# Do 23
+			owner = "GER" 
+			amount = 80
+		}
+		tac_bomber_equipment_0 = {		# Ju 86
+			owner = "GER" 
+			amount = 40
+			version_name = "Ju 86"
+		}
+		name = "Kampfgeschwader 153"
+		# TODO: REMOVE THIS LATER ???
+		transport_plane_equipment_1 = {
+			owner = "GER" 
+			amount = 4
+		}
+	}
+
+	### III. Luftkreiskommando -- Breslau ###
+	66 = { 
+		# Kampfgeschwader 253 'General Wever'		
+		tac_bomber_equipment_0 = {		# He 45 or Do 23 ?
+			owner = "GER" 
+			amount = 120
+		}
+		name = "Kampfgeschwader 253"
+		# Sturzkampfgeschwader 162		
+		CAS_equipment_1 =  {			# Hs 123
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Sturzkampfgeschwader 162"	
+	}
+}
+

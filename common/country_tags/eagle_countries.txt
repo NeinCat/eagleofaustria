@@ -1,0 +1,4 @@
+SGC = "countries/SouthGermany.txt"
+PRS = "countries/Prussia.txt"
+NGU = "countries/NorthGermany.txt"
+RUS = "countries/Russia.txt"
