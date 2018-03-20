@@ -11,14 +11,15 @@ state={
 	state_category = metropolis
 
 	history={
-		owner = NGU
+		owner = AUS
 		victory_points = { 11435 10 }
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 3
 
 		}
-		add_core_of = NGU
+		add_core_of = AUS
+		add_core_of = PRS
 
 		1939.1.1 ={
 			buildings = {

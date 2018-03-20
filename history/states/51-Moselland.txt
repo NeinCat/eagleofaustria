@@ -11,7 +11,7 @@ state={
 	state_category = metropolis
 	
 	history={
-		owner = NGU
+		owner = AUS
 		victory_points = {
 			6469 10 
 		}
@@ -26,6 +26,7 @@ state={
 
 		}
 		add_core_of = NGU
+		add_core_of = AUS
 
 		1939.1.1 = {
 			buildings = {

@@ -10,7 +10,9 @@ state={
 	state_category = large_city
 
 	history={
-		owner = NGU		victory_points = {
+		owner = AUS		
+		
+		victory_points = {
 			3326 5 
 		}
 		victory_points = {
@@ -26,7 +28,10 @@ state={
 			}
 
 		}
-		add_core_of = NGU		1939.1.1 = {
+		add_core_of = NGU	
+		add_core_of = AUS
+		
+		1939.1.1 = {
 			buildings = {
 				air_base = 6
 				arms_factory = 4

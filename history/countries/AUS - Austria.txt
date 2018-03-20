@@ -85,7 +85,7 @@ if = {
 	}
 }
 
-set_national_unity = 0.50
+set_stability = 0.50
 set_cosmetic_tag = AUS_HUN
 
 create_country_leader = {
