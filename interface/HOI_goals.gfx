@@ -1,0 +1,51 @@
+spriteTypes = {
+
+
+	###### Ideology #####
+
+	SpriteType = {
+		name = "GFX_goal_ideology_stalinism"
+		texturefile = "gfx/interface/goals/goal_ideology_stalinism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_communism"
+		texturefile = "gfx/interface/goals/goal_ideology_communism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_anarchism"
+		texturefile = "gfx/interface/goals/goal_ideology_anarchism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_social_democracy"
+		texturefile = "gfx/interface/goals/goal_ideology_social_democracy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_liberalism"
+		texturefile = "gfx/interface/goals/goal_ideology_liberalism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_democratic"
+		texturefile = "gfx/interface/goals/goal_ideology_democratic.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_neutrality"
+		texturefile = "gfx/interface/goals/goal_ideology_neutrality.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_absolute_monarchy"
+		texturefile = "gfx/interface/goals/goal_ideology_absolute_monarchy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_militarism"
+		texturefile = "gfx/interface/goals/goal_ideology_militarism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_fascism"
+		texturefile = "gfx/interface/goals/goal_ideology_fascism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_national_socialism"
+		texturefile = "gfx/interface/goals/goal_ideology_national_socialism.dds"
+	}
+	
+}
