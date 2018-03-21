@@ -61,32 +61,10 @@ set_politics = {
 	elections_allowed = yes
 }
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = SGC
-		autonomous_state = puppet
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = SER
-		autonomous_state = puppet
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = MNT
-		autonomous_state = autonomy_puppet
-		freedom_level = 0.35
-	}
-	else = {
-		puppet = SGC
-	}
-}
+
 
 set_stability = 0.50
-set_cosmetic_tag = AUS_HUN
+set_cosmetic_tag = AUS_GER
 
 create_country_leader = {
 	name = "Karl I von Habsburg"
@@ -132,9 +110,3 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
-	name = "Karl Eglseer"
-	portrait_path = "gfx/leaders/AUS/Portrait_AUS_Karl_I.dds"
-	traits = { trait_mountaineer trickster }
-	skill = 3
-}

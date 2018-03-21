@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = SER
+		owner = AUS
 		buildings = {
 			infrastructure = 4
 		}
