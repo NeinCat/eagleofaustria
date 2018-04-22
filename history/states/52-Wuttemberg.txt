@@ -10,8 +10,7 @@ state={
 	state_category = city
 
 	history={
-		owner = AUS
-		victory_points = {
+		owner = SGC		victory_points = {
 			692 30
 		}
 		buildings = {
@@ -21,9 +20,7 @@ state={
 			air_base = 6
 		}
 			add_core_of = SGC
-			add_core_of = AUS
-
-		1939.1.1 = {
+				1939.1.1 = {
 			buildings = {
 				air_base = 10
 			}

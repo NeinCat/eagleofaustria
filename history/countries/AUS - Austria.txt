@@ -1,6 +1,9 @@
 ﻿capital = 4
+
 oob = "AUS_1936"
-set_research_slots = 5
+
+set_research_slots = 3
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -39,39 +42,57 @@ set_politics = {
 
 	parties = {
 		neutrality = { 
-			popularity = 60
+			popularity = 10
 		}
 
 		fascism = {
-			popularity = 30
+			popularity = 7
 		}
 
 		democratic = {
-			popularity = 5
+			popularity = 30
 		}
 		
 		communism = {
 			popularity = 5
 		}
+		absolute_monarchy = {
+			popularity = 15
+		}
+		liberal = {
+			popularity = 10
+		}
+		social_democracy = {
+			popularity = 30
+		}
+		stalinism = {
+			popularity = 1
+		}
+		anarchism = {
+			popularity = 1
+		}
+		militarism = {
+			popularity = 1
+		}
+		fascism = {
+			popularity = 0
+		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1930.11.9"
+	ruling_party = social_democracy
+	last_election = "1936.11.9"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
-
-
-set_stability = 0.50
-set_cosmetic_tag = AUS_GER
+set_stability = 0.60
 
 create_country_leader = {
-	name = "Karl I von Habsburg"
-	desc = ""
-	picture = "gfx/leaders/AUS/Portrait_AUS_Karl_I.dds"
+	name = "Kurt Schuschnigg"
+	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
+	picture = "gfx/leaders/AUS/Portrait_AUS_Kurt_Shuschnigg.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
@@ -89,20 +110,20 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kurt Schuschnigg"
-	desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
-	picture = "gfx/leaders/AUS/Portrait_AUS_Kurt_Shuschnigg.dds"
+	name = "Otto Ender"
+	desc = "POLITICS_OTTO_ENDER_DESC"
+	picture = "gfx/leaders/AUS/Portrait_AUS_Otto_Ender.dds"
 	expire = "1965.1.1"
-	ideology = rexism
+	ideology = conservatism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Johann Koplenig"
+	name = "Alfred Klahr"
 	desc = "POLITICS_ALFRED_KLAHR_DESC"
-	picture = "gfx/leaders/AUS/Portrait_AUS_Johann_Koplenig.dds"
+	picture = "gfx/leaders/AUS/Portrait_AUS_Alfred_Klahr.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
@@ -110,3 +131,260 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Johann Koplenig"
+	desc = "POLITICS_JOHANN_KOPLENIG_DESC"
+	picture = "gfx/leaders/AUS/Portrait_AUS_Johann_Koplenig.dds"
+	expire = "1965.1.1"
+	ideology = stalinism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Richard Steidle"
+	desc = "POLITICS_JOHANN_KOPLENIG_DESC"
+	picture = "gfx/leaders/AUS/Portrait_AUS_Richard_Steidle.dds"
+	expire = "1965.1.1"
+	ideology = military_junta
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sepp Straffner"
+	desc = "POLITICS_JOHANN_KOPLENIG_DESC"
+	picture = "gfx/leaders/AUS/Portrait_AUS_Sepp_Straffner.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democracy_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Herbert Alois Kraus"
+	desc = "POLITICS_JOHANN_KOPLENIG_DESC"
+	picture = "gfx/leaders/AUS/Portrait_AUS_Herbert_Alois_Kraus.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Karl I von Habsburg-Lothringen"
+	desc = "POLITICS_JOHANN_KOPLENIG_DESC"
+	picture = "gfx/leaders/AUS/Portrait_AUS_Karl_I.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+		#
+	}
+}
+
+
+###########################
+### Generals & Admirals ###
+###########################
+
+### Field Marshal
+create_field_marshal = {
+	name = "Eduard von Böhm-Ermolli"
+	portrait_path = "gfx/leaders/AUS/army/Portrait_AUS_Eduard_Bohm_Ermolli.dds"
+	traits = {
+		war_hero
+		old_guard
+		defensive_doctrine
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Eugen von Habsburg-Lothringen"
+	portrait_path = "gfx/leaders/AUS/army/Portrait_AUS_Eugen_Habsburg_Lothringen.dds"
+	traits = {
+		war_hero
+		old_guard
+		offensive_doctrine
+		skilled_staffer
+		expert_delegator
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Joseph von Habsburg-Lothringen"
+	portrait_path = "gfx/leaders/AUS/army/Portrait_AUS_Joseph_Habsburg_Lothringen.dds"
+	traits = {
+		war_hero
+		old_guard
+		logistics_wizard
+		inspirational_leader
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Sigismund Schilhawsky"
+	portrait_path = "gfx/leaders/AUS/army/Portrait_AUS_Sigismund_Schilhawsky.dds"
+	traits = {
+		trait_cautious
+		organisational_leader
+		skilled_staffer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+### Corps Commander
+create_corps_commander = {
+	name = "Erhard Raus"
+	portrait_path = "gfx/leaders/AUS/army/Portrait_AUS_Erhard_Raus.dds"
+	traits = {
+		armor_officer
+		panzer_leader
+		trickster
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Lothar Rendulic"
+	portrait_path = "gfx/leaders/AUS/army/Portrait_AUS_Lothar_Rendulic.dds"
+	traits = {
+		armor_officer
+		panzer_leader
+		commando
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Eduard Barger"
+	portrait_path = "gfx/leaders/AUS/army/Portrait_AUS_Eduard_Barger.dds"
+	traits = {
+		trait_mountaineer
+		trickster
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Julius Ringel"
+	portrait_path = "gfx/leaders/AUS/army/Portrait_AUS_Julius_Ringel.dds"
+	traits = {
+		trait_mountaineer
+		commando
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Franz Böhme"
+	portrait_path = "gfx/leaders/AUS/army/Portrait_AUS_Franz_Bohme.dds"
+	traits = {
+		hill_fighter
+		winter_specialist
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Alfred Jansa"
+	portrait_path = "gfx/leaders/AUS/army/Portrait_AUS_Alfred_Jansa.dds"
+	traits = {
+		infantry_leader
+		ambusher
+		skilled_staffer
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Friedrich Materna"
+	portrait_path = "gfx/leaders/AUS/army/Portrait_AUS_Friedrich_Materna.dds"
+	traits = {
+		infantry_officer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Wilhelm Zehner"
+	portrait_path = "gfx/leaders/AUS/army/Portrait_AUS_Wilhelm_Zehner.dds"
+	traits = {
+		old_guard
+		urban_assault_specialist
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+### Navy Leader
+create_navy_leader = {
+	name = "Georg von Trapp"
+	portrait_path = "gfx/leaders/AUS/army/Portrait_AUS_Georg_von_Trapp.dds"
+	traits = {
+		seawolf
+	}
+	skill = 3 #naval guy, don't patch
+}
+
+create_navy_leader = {
+	name = "Janko Vuković"
+	portrait_path = "gfx/leaders/AUS/army/Portrait_AUS_Janko_Vukovic.dds"
+	traits = {
+		superior_tactician
+	}
+	skill = 1 #naval guy, don't patch
+}

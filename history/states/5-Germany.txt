@@ -6,10 +6,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = AUS
-		controller = AUS
-		
-		
+		owner = PRS			
 		victory_points = {
 			6332 10 
 		}
@@ -28,7 +25,6 @@ state={
 			air_base = 6
 		}
 		add_core_of = PRS
-		add_core_of = AUS
 		1939.1.1 = {
 			buildings = {
 				anti_air_building = 5

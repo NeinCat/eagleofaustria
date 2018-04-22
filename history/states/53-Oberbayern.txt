@@ -7,13 +7,11 @@ state={
 	state_category = city
 
 	history={
-		owner = AUS
-		buildings = {
+		owner = SGC		buildings = {
 			infrastructure = 6
 		}
 				add_core_of = SGC
-				add_core_of = AUS
-	}
+				}
 
 	provinces={
 		532 571 586 3299 3541 3571 6725 9515 9681 11497 

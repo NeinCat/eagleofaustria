@@ -3,10 +3,7 @@ ideologies = {
 	anarchism = {
 	
 		types = {
-		
 			anarchism_ideology = {
-			}
-			anarchist_communism = {
 			}
 		}
 
@@ -41,14 +38,9 @@ ideologies = {
 	
 	stalinism = {
 		
-		types = {		
-		
+		types = {			
 			stalinism_ideology = {
-			}
-			anti_revisionism = {
-			}
-	
-			
+			}		
 		}
 		
 		dynamic_faction_names = {
@@ -84,13 +76,9 @@ ideologies = {
 	
 	communism = {
 		
-		types = {		
-		
+		types = {				
 			marxism = {
-			}
-			leninism = {
-			}
-			
+			}			
 		}
 		
 		dynamic_faction_names = {
@@ -273,20 +261,8 @@ ideologies = {
 	
 	neutrality = {
 	
-		types = {
-		
+		types = {	
 			authoritarian_democracy_ideology = {
-			}
-			despotism  = {
-			}
-			
-			oligarchism  = {
-			}
-			
-			moderatism = {
-			}
-			
-			centrism = {
 			}
 		}
 
@@ -334,22 +310,17 @@ ideologies = {
 	
 	absolute_monarchy = {
 	
-		types = {
-		
+		types = {	
 			absolutism = {
-			}
-			
-			constitutional_monarchy = {
 			}
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_MONARCHIST_1"
-			"FACTION_NAME_MONARCHIST_2"
-			"FACTION_NAME_MONARCHIST_3"
-			"FACTION_NAME_MONARCHIST_4"
-			"FACTION_NAME_MONARCHIST_5"
-			"FACTION_NAME_MONARCHIST_6"
+			"FACTION_NAME_NONALIGNED_1"
+			"FACTION_NAME_NONALIGNED_2"
+			"FACTION_NAME_NONALIGNED_3"
+			"FACTION_NAME_NONALIGNED_4"
+			"FACTION_NAME_NONALIGNED_5"
 		}
 		
 		color = {  70 0 70  }
@@ -415,8 +386,7 @@ ideologies = {
 
 	fascism = {
 	
-		types = {
-			
+		types = {	
 			fascism_ideology = {
 			}
 		}

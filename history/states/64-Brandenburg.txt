@@ -9,7 +9,7 @@ state={
 
 
 	history={
-		owner = AUS
+		owner = PRS
 		victory_points = {
 			6521 50 
 		}
@@ -25,7 +25,6 @@ state={
 
 		}
 		add_core_of = PRS
-		add_core_of = AUS
 
 		1939.1.1 = {
 			buildings = {
