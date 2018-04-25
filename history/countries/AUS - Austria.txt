@@ -79,8 +79,8 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_democracy
-	last_election = "1936.11.9"
+	ruling_party = absolute_monarchy
+	last_election = "1914.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }

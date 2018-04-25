@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = MNT
+		owner = AUS
 		add_core_of = MNT
 		buildings = {
 			infrastructure = 3
