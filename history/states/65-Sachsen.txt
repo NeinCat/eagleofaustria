@@ -11,7 +11,7 @@ state={
 
 
 	history={
-		owner = DDR
+		owner = PRS
 		buildings = {
 			infrastructure = 7
 			arms_factory = 3
@@ -23,8 +23,7 @@ state={
 		victory_points = {
 			3535 5 
 		}
-		add_core_of = DDR
-		1939.1.1 = {
+		add_core_of = PRS		1939.1.1 = {
 			buildings = {
 				synthetic_refinery = 2
 				arms_factory = 5

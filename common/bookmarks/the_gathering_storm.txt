@@ -43,8 +43,8 @@ bookmarks = {
 			}
 		}
 		
-		"NGU"={
-			history = "NGU_WIND_OF_CHANGE_DESC"
+		"ITA"={
+			history = "ITA_WIND_OF_CHANGE_DESC"
 			ideology = communism
 			ideas = {
 			}	

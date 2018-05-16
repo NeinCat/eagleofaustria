@@ -11,13 +11,13 @@ state={
 	state_category = city
 
 	history={
-		owner = CZE	
+		owner = POL	
 		buildings = {
 			infrastructure = 6
 		}
 		add_core_of = PRS
 		add_core_of = POL
-		add_core_of = CZE		}
+		}
 
 	provinces={
 		479 6512 9457 9511 11467 

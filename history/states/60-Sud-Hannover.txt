@@ -12,15 +12,13 @@ state={
 	state_category = large_city
 
 	history={
-		owner = DDR
-		victory_points = { 6524 5 }
+		owner = PRS		victory_points = { 6524 5 }
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 1
 		}
-				add_core_of = DDR
-		1939.1.1 = {
+				add_core_of = PRS		1939.1.1 = {
 			buildings = {
 				synthetic_refinery = 3
 				arms_factory = 2

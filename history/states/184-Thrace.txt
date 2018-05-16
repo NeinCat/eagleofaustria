@@ -11,12 +11,11 @@ state={
 	}
 
 	history={
-		owner = BUL
+		owner = GRE
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = BUL
-		add_claim_by = TUR
+		add_core_of = GRE
 	}
 
 	provinces={

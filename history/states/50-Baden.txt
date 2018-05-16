@@ -7,7 +7,7 @@ state={
 
 	state_category = large_city
 	history={
-		owner = WGR		victory_points = {
+		owner = SGC		victory_points = {
 			9517 5 
 		}
 		buildings = {
@@ -18,7 +18,7 @@ state={
 
 		}
 		
-			add_core_of = WGR		1939.1.1 = {
+			add_core_of = SGC		1939.1.1 = {
 			buildings = {
 				arms_factory = 11
 				industrial_complex = 3
