@@ -67,50 +67,49 @@ set_technology = {
 	}
 }
 
+
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 96
+		neutrality = { 
+			popularity = 0
 		}
 
 		fascism = {
-			popularity = 2
+			popularity = 0
+		}
+
+		democratic = {
+			popularity = 0
 		}
 		
 		communism = {
-			popularity = 2
+			popularity = 0
+		}
+		absolute_monarchy = {
+			popularity = 0
+		}
+		liberal = {
+			popularity = 100
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1935.10.27"
+	ruling_party = liberal
+	last_election = "1934.11.9"
 	election_frequency = 48
-	elections_allowed = yes
-}
-
-1939.1.1 = {#next election october 39
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 95
-			}
-
-			fascism = {
-				popularity = 2
-			}
-			
-			communism = {
-				popularity = 3
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1935.10.27"
-		election_frequency = 48
-		elections_allowed = yes
-	}
+	elections_allowed = no
 }
 
 add_ideas = {
@@ -125,7 +124,7 @@ create_country_leader = {
 	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
 	picture = "Portrait_Switzerland_Federal_council.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = liberalism
 	traits = {
 		#
 	}
@@ -136,7 +135,7 @@ create_country_leader = {
 	desc = "POLITICS_ERNST_BEGUIN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = authoritarian_democracy_ideology
 	traits = {
 		#
 	}
@@ -147,7 +146,7 @@ create_country_leader = {
 	desc = "POLITICS_MAX_LEO_KELLER_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" 
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = fascism_ideology
 	traits = {
 		#
 	}

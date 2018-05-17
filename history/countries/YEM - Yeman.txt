@@ -55,26 +55,43 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
+		neutrality = { 
 			popularity = 0
 		}
 
 		fascism = {
 			popularity = 0
 		}
+
+		democratic = {
+			popularity = 0
+		}
 		
 		communism = {
 			popularity = 0
-			#banned = no #default is no
 		}
-		
-		neutrality = { 
+		absolute_monarchy = {
 			popularity = 100
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1936.1.1"
+	ruling_party = absolute_monarchy
+	last_election = "1934.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -84,37 +101,9 @@ create_country_leader = {
 	desc = "POLITICS_IMAM_YAHYA_DESC"
 	picture = "GFX_portrait_yemen_imam_yahya"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = absolutism
 	traits = {
 		#
 	}
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 100
-		}
-	}
-	
-		ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-}

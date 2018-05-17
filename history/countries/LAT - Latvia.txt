@@ -73,55 +73,45 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 30
+		neutrality = { 
+			popularity = 60
 		}
 
 		fascism = {
-			popularity = 15
+			popularity = 0
+		}
+
+		democratic = {
+			popularity = 5
 		}
 		
 		communism = {
-			popularity = 15
+			popularity = 0
 		}
-		
-		neutrality = { 
-			popularity = 50
+		absolute_monarchy = {
+			popularity = 0
+		}
+		liberal = {
+			popularity = 5
+		}
+		social_democracy = {
+			popularity = 30
+		}
+		stalinism = {
+			popularity = 1
+		}
+		anarchism = {
+			popularity = 1
+		}
+		militarism = {
+			popularity = 1
 		}
 	}
 	
 	ruling_party = neutrality
-	last_election = "1931.10.3"
-	election_frequency = 108
+	last_election = "1914.11.9"
+	election_frequency = 48
 	elections_allowed = no
-}
-
-1939.1.1 = {# probably needs some adjustment before nazi occupation in 1940
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 30
-			}
-
-			fascism = {
-				popularity = 15
-			}
-			
-			communism = {
-				popularity = 15
-			}
-			
-			neutrality = { 
-				popularity = 50
-			}
-		}
-		
-		ruling_party = neutrality
-		last_election = "1931.10.3"
-		election_frequency = 108
-		elections_allowed = no
-	}
 }
 
 create_country_leader = {
@@ -129,7 +119,7 @@ create_country_leader = {
 	desc = "POLITICS_KARLIS_ULMANIS_DESC"
 	picture = "GFX_Portrait_latvia_karlis_ulmanis"
 	expire = "1965.1.1"
-	ideology = oligarchism
+	ideology = authoritarian_democracy_ideology
 	traits = {
 		#
 	}

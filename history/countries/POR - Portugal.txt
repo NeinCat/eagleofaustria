@@ -97,32 +97,48 @@ set_politics = {
 	elections_allowed = yes
 }
 
-1939.1.1 = {
-	set_politics = {
+set_politics = {
 
-		parties = {
-			democratic = {
-				popularity = 0
-			}
+	parties = {
+		neutrality = { 
+			popularity = 0
+		}
 
-			fascism = {
-				popularity = 0
-			}
-			
-			communism = {
-				popularity = 0
-			}
-			
-			neutrality = {
-				popularity = 100
-			}
+		fascism = {
+			popularity = 90
+		}
+
+		democratic = {
+			popularity = 0
 		}
 		
-		ruling_party = neutrality
-		last_election = "1938.10.30"
-		election_frequency = 48
-		elections_allowed = yes
+		communism = {
+			popularity = 0
+		}
+		absolute_monarchy = {
+			popularity = 0
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 10
+		}
 	}
+	
+	ruling_party = fascism
+	last_election = "1934.11.9"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 set_convoys = 100
@@ -134,7 +150,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTÓNIO_DE_OLIVEIRA_SALAZAR_DESC"
 	picture = "Portrait_Portugal_Antonio_de_Oliveira_Salazar.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
@@ -146,17 +162,6 @@ create_country_leader = {
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Francisco de Barcelos Rolão Preto"
-	desc = "POLITICS_FRANSISCO_BARCELOS_ROLAO_PRETO_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
 	traits = {
 		#
 	}

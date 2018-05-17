@@ -118,28 +118,47 @@ set_cosmetic_tag = RAJ_UK # British Raj
 	}
 }
 
+
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 17
+		neutrality = { 
+			popularity = 0
 		}
 
 		fascism = {
-			popularity = 2
+			popularity = 10
+		}
+
+		democratic = {
+			popularity = 0
 		}
 		
 		communism = {
-			popularity = 1
+			popularity = 10
 		}
-
-		neutrality = {
-			popularity = 80
+		absolute_monarchy = {
+			popularity = 60
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 20
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1935.11.14"
+	ruling_party = absolute_monarchy
+	last_election = "1914.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -149,7 +168,7 @@ create_country_leader = {
 	desc = "POLITICS_LORD_LINLITHGOW_DESC"
 	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = absolutism
 	traits = {
 		
 	}
@@ -161,7 +180,7 @@ create_country_leader = {
 	desc = "POLITICS_VD_SAVARKAR_DESC"
 	picture = "GFX_RAJ_veer_savarkar"
 	expire = "1965.1.1"
-	ideology = falangism
+	ideology = fascism_ideology
 	traits = {
 		
 	}

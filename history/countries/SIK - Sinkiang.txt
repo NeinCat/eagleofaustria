@@ -89,24 +89,43 @@ if = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		neutrality = { 
 			popularity = 0
-			banned = yes
 		}
 
 		fascism = {
 			popularity = 0
-			banned = yes
+		}
+
+		democratic = {
+			popularity = 0
 		}
 		
 		communism = {
+			popularity = 0
+		}
+		absolute_monarchy = {
+			popularity = 0
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
 			popularity = 100
-			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = communism
-	last_election = "1936.1.1"
+	ruling_party = militarism
+	last_election = "1924.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -116,7 +135,7 @@ create_country_leader = {
 	desc = "POLITICS_SHENG_SHICAI_DESC"
 	picture = "gfx/leaders/SIK/Portrait_Sinkiang_Sheng_Shicai.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = military_junta
 	traits = {
 		#
 	}

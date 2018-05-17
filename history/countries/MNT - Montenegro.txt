@@ -23,16 +23,45 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		fascism = { 
-			popularity = 33
-		}
 		neutrality = { 
-			popularity = 33
-		}		
+			popularity = 100
+		}
+
+		fascism = {
+			popularity = 0
+		}
+
+		democratic = {
+			popularity = 0
+		}
+		
 		communism = {
-			popularity = 34
+			popularity = 0
+		}
+		absolute_monarchy = {
+			popularity = 0
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
 		}
 	}
+	
+	ruling_party = neutrality
+	last_election = "1914.11.9"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -51,7 +80,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1953.3.1"
-	ideology = oligarchism
+	ideology = authoritarian_democracy_ideology
 	traits = {
 		
 	}
@@ -62,7 +91,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1953.3.1"
-	ideology = leninism
+	ideology = marxism
 	traits = {
 		
 	}

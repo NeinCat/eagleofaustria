@@ -74,9 +74,6 @@ set_politics = {
 		militarism = {
 			popularity = 1
 		}
-		fascism = {
-			popularity = 0
-		}
 	}
 	
 	ruling_party = absolute_monarchy

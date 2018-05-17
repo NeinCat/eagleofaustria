@@ -135,6 +135,50 @@ set_politics = {
 
 }
 
+set_politics = {
+
+	parties = {
+		neutrality = { 
+			popularity = 5
+		}
+
+		fascism = {
+			popularity = 0
+		}
+
+		democratic = {
+			popularity = 10
+		}
+		
+		communism = {
+			popularity = 15
+		}
+		absolute_monarchy = {
+			popularity = 70
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = absolute_monarchy
+	last_election = "1914.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
 
 add_ideas = {
 }
@@ -154,7 +198,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/SGC/Portrait_SGC_Heinrich_Himmler.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = fascism_ideology
 	traits = {	
 		dictator
 	}
@@ -166,7 +210,7 @@ create_country_leader = {
 	desc = ""	 
 	picture = "gfx/leaders/SGC/Portrait_SGC_Remmele_Hermann.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = stalinism_ideology
 	traits = {
 		exiled
 	}
@@ -177,7 +221,7 @@ create_country_leader = {
 	desc = ""	 
 	picture = "gfx/leaders/SGC/Portrait_SGC_Ruprecht_Wittelsbach.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = absolutism
 	traits = {
 	}
 

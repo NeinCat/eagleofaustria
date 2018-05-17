@@ -70,24 +70,45 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 49
+		neutrality = { 
+			popularity = 0
 		}
 
 		fascism = {
-			popularity = 51
+			popularity = 100
+		}
+
+		democratic = {
+			popularity = 0
 		}
 		
 		communism = {
 			popularity = 0
-			#banned = no #default is no
+		}
+		absolute_monarchy = {
+			popularity = 0
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
 		}
 	}
 	
 	ruling_party = fascism
-	last_election = "1931.10.11"
-	election_frequency = 96
-	elections_allowed = yes
+	last_election = "1934.11.9"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -98,41 +119,5 @@ create_country_leader = {
 	ideology = fascism_ideology
 	traits = {
 		#
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 49
-			}
-
-			fascism = {
-				popularity = 51
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = fascism
-		last_election = "1931.10.11"
-		election_frequency = 96
-		elections_allowed = yes
-	}
-
-	create_country_leader = {
-		name = "Manuel Prado Ugarteche"
-		desc = "POLITICS_MANUEL_PRADO_UGARTECHE_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = fascism_ideology
-		traits = {
-			#
-		}
 	}
 }

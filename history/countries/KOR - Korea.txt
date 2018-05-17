@@ -13,27 +13,44 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 35
+		neutrality = { 
+			popularity = 0
 		}
 
 		fascism = {
-			popularity = 25
+			popularity = 0
+		}
+
+		democratic = {
+			popularity = 0
 		}
 		
 		communism = {
-			popularity = 30
-			#banned = no #default is no
+			popularity = 0
 		}
-		
-		neutrality = { 
-			popularity = 10
+		absolute_monarchy = {
+			popularity = 100
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
 		}
 	}
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	
+	ruling_party = absolute_monarchy
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -52,7 +69,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = absolutism
 	traits = {
 		#
 	}
@@ -63,7 +80,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = stalinism_ideology
 	traits = {
 		#
 	}

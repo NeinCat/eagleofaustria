@@ -79,55 +79,45 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 5
+		neutrality = { 
+			popularity = 0
 		}
 
 		fascism = {
-			popularity = 35
-		}
-		
-		communism = {
-			popularity = 0
-			banned = yes
-		}
-		neutrality = { 
-			popularity = 60
-		}
-	}
-	
-	ruling_party = neutrality
-	last_election = "1931.6.21"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-1939.1.1 = {
-	set_politics = {
-
-	parties = {
-		democratic = { 
 			popularity = 5
 		}
 
-		fascism = {
-			popularity = 35
+		democratic = {
+			popularity = 30
 		}
 		
 		communism = {
-			popularity = 0
-			banned = yes
+			popularity = 5
 		}
-		neutrality = { 
+		absolute_monarchy = {
 			popularity = 60
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 30
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 5
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1938.3.27"
+	ruling_party = absolute_monarchy
+	last_election = "1914.11.9"
 	election_frequency = 48
 	elections_allowed = no
-}
 }
 
 create_country_leader = {
@@ -135,7 +125,7 @@ create_country_leader = {
 	desc = "POLITICS_BORIS_III_DESC"
 	picture = "Portrait_Bulgaria_Boris_III.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = absolutism
 	traits = {
 		#
 	}
@@ -146,7 +136,7 @@ create_country_leader = {
 	desc = "POLITICS_GEORGI_DIMITROV_DESC"
 	picture = "Portrait_Bulgaria_Georgi_Dimitrov.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = marxism
 	traits = {
 		#
 	}

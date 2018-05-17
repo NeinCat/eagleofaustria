@@ -121,24 +121,45 @@ if = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 98
+		neutrality = { 
+			popularity = 0
 		}
 
 		fascism = {
 			popularity = 0
 		}
+
+		democratic = {
+			popularity = 20
+		}
 		
 		communism = {
-			popularity = 2
-			#banned = no #default is no
+			popularity = 10
+		}
+		absolute_monarchy = {
+			popularity = 10
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 60
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1934.9.15"
-	election_frequency = 36
-	elections_allowed = yes
+	ruling_party = social_democracy
+	last_election = "1914.11.9"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -168,7 +189,7 @@ create_country_leader = {
 	desc = "POLITICS_RICHARD_DIXON_DESC"
 	picture = "GFX_AST_richard_dixon"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = marxism
 	traits = {
 		#
 	}
@@ -179,7 +200,7 @@ create_country_leader = {
 	desc = "POLITICS_EARLE_PAGE_DESC"
 	picture = "GFX_AST_earle_page"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = authoritarian_democracy_ideology
 	traits = {
 		#
 	}
@@ -190,7 +211,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Australia_Rod_Hull.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = military_junta
 	traits = {
 		#
 	}

@@ -88,56 +88,48 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 10
+		neutrality = { 
+			popularity = 60
 		}
 
 		fascism = {
+			popularity = 0
+		}
+
+		democratic = {
 			popularity = 10
 		}
 		
 		communism = {
-			popularity = 1
+			popularity = 0
 		}
-
-		neutrality = {
-			popularity = 79
+		absolute_monarchy = {
+			popularity = 20
+		}
+		liberal = {
+			popularity = 10
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
 		}
 	}
 	
 	ruling_party = neutrality
-	last_election = "1933.7.1"
-	election_frequency = 36
-	elections_allowed = yes
+	last_election = "1914.11.9"
+	election_frequency = 48
+	elections_allowed = no
 }
 
-1939.1.1 = {
-	set_politics = {
 
-		parties = {
-			democratic = { 
-				popularity = 10
-			}
-
-			fascism = {
-				popularity = 10
-			}
-			
-			communism = {
-				popularity = 1
-			}
-
-			neutrality = {
-				popularity = 79
-			}
-		}
-		
-		ruling_party = neutrality
-		last_election = "1939.7.1"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-}
 create_country_leader = {
 	name = "Risto Heikki Ryti"
 	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
@@ -176,7 +168,7 @@ create_country_leader = {
 	desc = "POLITICS_KYÖSTI_KALLIO_DESC"
 	picture = "gfx/leaders/FIN/Portrait_Finland_Kyosti_Kallio.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = authoritarian_democracy_ideology
 	traits = {
 		#
 	}
@@ -185,7 +177,6 @@ create_country_leader = {
 
 
 add_ideas = {
-	sisu
 }
 
 create_corps_commander = {

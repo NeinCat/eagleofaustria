@@ -40,14 +40,45 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 25
+		neutrality = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 0
+		}
+
+		democratic = {
+			popularity = 0
 		}
 		
 		communism = {
-			popularity = 75
+			popularity = 0
+		}
+		absolute_monarchy = {
+			popularity = 0
+		}
+		liberal = {
+			popularity = 100
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
 		}
 	}
+	
+	ruling_party = liberal
+	last_election = "1914.11.9"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 create_country_leader = {

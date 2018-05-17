@@ -43,26 +43,45 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 40
+		neutrality = { 
+			popularity = 0
 		}
 
-#		fascism = {
-#		
-#		}
+		fascism = {
+			popularity = 0
+		}
+
+		democratic = {
+			popularity = 30
+		}
 		
 		communism = {
-			popularity = 25
+			popularity = 0
 		}
-		neutrality = {
-			popularity = 35
+		absolute_monarchy = {
+			popularity = 0
+		}
+		liberal = {
+			popularity = 50
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 20
+		}
+		militarism = {
+			popularity = 0
 		}
 	}
-
-	ruling_party = democratic
-	last_election = "1933.2.16"
-	election_frequency = 36
-	elections_allowed = yes
+	
+	ruling_party = liberal
+	last_election = "1914.11.9"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 create_country_leader = {

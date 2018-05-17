@@ -78,25 +78,42 @@ set_country_flag = monroe_doctrine
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
+		neutrality = { 
+			popularity = 100
 		}
 
 		fascism = {
+			popularity = 0
+		}
+
+		democratic = {
 			popularity = 0
 		}
 		
 		communism = {
 			popularity = 0
 		}
-		
-		neutrality = { 
-			popularity = 100
+		absolute_monarchy = {
+			popularity = 0
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
 		}
 	}
 	
 	ruling_party = neutrality
-	last_election = "1934.7.17"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -106,7 +123,7 @@ create_country_leader = {
 	desc = "POLITICS_GETULIO_VARGAS_DESC"
 	picture = "Portrait_Brazil_Getulio_Vargas.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian_democracy_ideology
 	traits = {
 		#
 	}

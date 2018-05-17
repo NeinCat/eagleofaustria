@@ -62,26 +62,43 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
+		neutrality = { 
+			popularity = 80
 		}
 
 		fascism = {
-			popularity = 15
+			popularity = 0
+		}
+
+		democratic = {
+			popularity = 0
 		}
 		
 		communism = {
-			popularity = 10
-			#banned = no #default is no
+			popularity = 0
 		}
-		
-		neutrality = { 
-			popularity = 75
+		absolute_monarchy = {
+			popularity = 20
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
 		}
 	}
 	
 	ruling_party = neutrality
-	last_election = "1936.1.1"
+	last_election = "1934.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -92,38 +109,9 @@ create_country_leader = {
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
 	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian_democracy_ideology
 	traits = {
 		#
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 20
-			}
-			
-			communism = {
-				popularity = 10
-				#banned = no #default is no
-			}
-		
-			neutrality = { 
-				popularity = 75
-			}
-		}
-	
-		ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
 	}
 }
 

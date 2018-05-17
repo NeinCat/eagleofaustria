@@ -94,25 +94,46 @@ set_convoys = 20
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 17
+		neutrality = { 
+			popularity = 50
 		}
 
 		fascism = {
-			popularity = 2
+			popularity = 0
+		}
+
+		democratic = {
+			popularity = 20
 		}
 		
 		communism = {
 			popularity = 1
 		}
-
-		neutrality = {
-			popularity = 80
+		absolute_monarchy = {
+			popularity = 10
+		}
+		liberal = {
+			popularity = 20
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 10
+		}
+		fascism = {
+			popularity = 0
 		}
 	}
 	
 	ruling_party = neutrality
-	last_election = "1935.11.14"
+	last_election = "1934.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -123,7 +144,7 @@ create_country_leader = {
 	
 	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
 	expire = "1960.1.1"
-	ideology = centrism
+	ideology = authoritarian_democracy_ideology
 	traits = {
 		
 	}

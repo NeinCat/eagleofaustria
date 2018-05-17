@@ -14,84 +14,46 @@ set_technology = {
 
 set_convoys = 5
 
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "IRQ_1939"
-	set_technology = {
-		early_fighter = 1
-		CAS1 = 1
-		tech_support = 1
-		tech_recon = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		gw_artillery = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		improved_oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-}
-
 set_politics = {
 
 	parties = {
-		democratic = { 
+		neutrality = { 
 			popularity = 0
 		}
 
 		fascism = {
-			popularity = 20
+			popularity = 30
+		}
+
+		democratic = {
+			popularity = 0
 		}
 		
 		communism = {
 			popularity = 0
-			#banned = no #default is no
 		}
-		
-		neutrality = { 
-			popularity = 80
+		absolute_monarchy = {
+			popularity = 70
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1936.1.1"
+	ruling_party = absolute_monarchy
+	last_election = "1914.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -100,8 +62,8 @@ create_country_leader = {
 	name = "Ghazi I"
 	desc = "POLITICS_GHAZI_I_DESC"
 	picture = "GFX_portrait_iraq_ghazi"
-	expire = "1965.1.1"
-	ideology = despotism
+	expire = "1939.4.4"
+	ideology = absolutism
 	traits = {
 		#
 	}
@@ -123,48 +85,20 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = marxism
 	traits = {
 		#
 	}
 }
 
-1939.1.1 = {
-	set_politics = {
 
-		parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 30
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-
-			neutrality = { 
-				popularity = 70
-			}
-		}
-	
-	ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	create_country_leader = {
-		name = "Faisal II"
-		desc = "POLITICS_FAISAL_II_DESC"
-		picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_land_1.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			#
-		}
+create_country_leader = {
+	name = "Faisal II"
+	desc = "POLITICS_FAISAL_II_DESC"
+	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+		#
 	}
 }

@@ -23,27 +23,45 @@ set_research_slots = 3
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 65
-		}
-
 		neutrality = { 
 			popularity = 20
 		}
 
 		fascism = {
-			popularity = 5
+			popularity = 10
+		}
+
+		democratic = {
+			popularity = 60
 		}
 		
 		communism = {
 			popularity = 10
 		}
+		absolute_monarchy = {
+			popularity = 0
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
+		}
 	}
 	
 	ruling_party = democratic
-	last_election = "1935.5.19"
-	election_frequency = 60
-	elections_allowed = yes
+	last_election = "1914.11.9"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 create_country_leader = {

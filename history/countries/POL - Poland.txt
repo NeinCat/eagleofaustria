@@ -132,63 +132,54 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 18
+		neutrality = { 
+			popularity = 50
 		}
 
 		fascism = {
-			popularity = 15
+			popularity = 10
+		}
+
+		democratic = {
+			popularity = 10
 		}
 		
 		communism = {
-			popularity = 2
+			popularity = 0
 		}
-		
-		neutrality = { 
-			popularity = 65
+		absolute_monarchy = {
+			popularity = 0
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 30
 		}
 	}
 	
 	ruling_party = neutrality
-	last_election = "1935.9.8"
-	election_frequency = 36
+	last_election = "1934.11.9"
+	election_frequency = 48
 	elections_allowed = no
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 13
-			}
-
-			fascism = {
-				popularity = 7
-			}
-			
-			communism = {
-				popularity = 2
-			}
-			
-			neutrality = { 
-				popularity = 78
-			}
-		}
-		
-		ruling_party = neutrality
-		last_election = "1935.9.8"
-		election_frequency = 36
-		elections_allowed = no
-	}
-}
 
 create_country_leader = {
 	name = "Władysław Sikorski"
 	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
 	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
 	expire = "1965.1.1"
-	ideology = oligarchism
+	ideology = military_junta
 	traits = {
 		#
 	}
@@ -199,7 +190,7 @@ create_country_leader = {
 	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
 	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
 	expire = "1965.1.1"
-	ideology = oligarchism
+	ideology = authoritarian_democracy_ideology
 	traits = {
 		#
 	}
@@ -210,7 +201,7 @@ create_country_leader = {
 	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
 	picture = "Portrait_Poland_Wladyslaw_Gomulka.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = stalinism_ideology
 	traits = {
 		#
 	}
@@ -232,7 +223,7 @@ create_country_leader = {
 	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
 	picture = "GFX_POL_boleslaw_piasecki"
 	expire = "1965.1.1"
-	ideology = falangism
+	ideology = fascism_ideology
 	traits = {
 		#
 	}

@@ -84,75 +84,49 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 10
+		neutrality = { 
+			popularity = 60
 		}
 
 		fascism = {
+			popularity = 20
+		}
+
+		democratic = {
 			popularity = 0
-			banned = yes
 		}
 		
 		communism = {
 			popularity = 0
-			banned = yes #default is no
 		}
-		
-		neutrality = { 
-			popularity = 100
+		absolute_monarchy = {
+			popularity = 0
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 20
 		}
 	}
 	
 	ruling_party = neutrality
-	last_election = "1935.2.8"
+	last_election = "1934.11.9"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_convoys = 20
 set_stability = 0.55
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-		democratic = { 
-			popularity = 10
-		}
-
-		fascism = {
-			popularity = 0
-			banned = yes
-		}
-		
-		communism = {
-			popularity = 0
-			banned = yes #default is no
-		}
-		
-		neutrality = { 
-			popularity = 100
-		}
-	}
-	
-	ruling_party = neutrality
-		last_election = "1939.2.8"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-
-	create_country_leader = {
-		name = "Ismet Inönü"
-		desc = "POLITICS_ISMET_INÖNÜ_DESC"
-		picture = "Portrait_Turkey_Ismet_Inonu.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
-
-}
 
 # Atatürk still alive in '36, however, Inönü was already Prime Minister (but not President)
 create_country_leader = {
@@ -160,7 +134,7 @@ create_country_leader = {
 	desc = "POLITICS_ISMET_INÖNÜ_DESC"
 	picture = "Portrait_Turkey_Ismet_Inonu.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian_democracy_ideology
 	traits = {
 		#
 	}
@@ -171,7 +145,7 @@ create_country_leader = {
 	desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
 	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
 	expire = "1938.11.10"
-	ideology = despotism
+	ideology = authoritarian_democracy_ideology
 	traits = {
 		#
 	}

@@ -61,24 +61,45 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 100
+		neutrality = { 
+			popularity = 0
 		}
 
 		fascism = {
+			popularity = 10
+		}
+
+		democratic = {
 			popularity = 0
 		}
 		
 		communism = {
 			popularity = 0
-			#banned = no #default is no
+		}
+		absolute_monarchy = {
+			popularity = 0
+		}
+		liberal = {
+			popularity = 50
+		}
+		social_democracy = {
+			popularity = 20
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1932.6.5"
+	ruling_party = liberal
+	last_election = "1934.11.9"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -92,49 +113,3 @@ create_country_leader = {
 	}
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 100
-			}
-
-			fascism = {
-				popularity = 0
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1936.6.7"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-
-	create_country_leader = {
-		name = "Juan Demóstenes Arosemena"
-		desc = "POLITICS_JUAN_DEMOSTENES_AROSEMENA_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-		expire = "1965.1.1"
-		ideology = liberalism
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "July Portocarrero"
-		desc = "POLITICS_JULY_PORTOCARRERO_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-		expire = "1965.1.1"
-		ideology = marxism
-		traits = {
-			#
-		}
-	}
-}

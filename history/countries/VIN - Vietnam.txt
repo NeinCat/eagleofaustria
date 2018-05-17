@@ -43,29 +43,46 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 35
+		neutrality = { 
+			popularity = 10
 		}
 
 		fascism = {
-			popularity = 15
+			popularity = 7
+		}
+
+		democratic = {
+			popularity = 30
 		}
 		
 		communism = {
+			popularity = 5
+		}
+		absolute_monarchy = {
 			popularity = 15
 		}
-		neutrality = {
-			popularity = 35
+		liberal = {
+			popularity = 10
+		}
+		social_democracy = {
+			popularity = 30
+		}
+		stalinism = {
+			popularity = 1
+		}
+		anarchism = {
+			popularity = 1
+		}
+		militarism = {
+			popularity = 1
 		}
 	}
-
+	
 	ruling_party = democratic
-	last_election = "1933.2.16"
-	election_frequency = 36
-	elections_allowed = yes
+	last_election = "1934.11.9"
+	election_frequency = 48
+	elections_allowed = no
 }
-
-#NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
 
 create_country_leader = {
 	name = "Phan Bôi Châu" 
@@ -105,7 +122,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 	expire = "1953.3.1"
-	ideology = moderatism
+	ideology = authoritarian_democracy_ideology
 	traits = {
 		
 	}

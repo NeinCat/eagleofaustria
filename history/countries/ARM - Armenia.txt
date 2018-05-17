@@ -40,18 +40,45 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		fascism = { 
-			popularity = 34
-		}	
-	
-		democratic = { 
-			popularity = 30
+		neutrality = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 20
+		}
+
+		democratic = {
+			popularity = 60
 		}
 		
 		communism = {
-			popularity = 36
-		}	
+			popularity = 0
+		}
+		absolute_monarchy = {
+			popularity = 0
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 20
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
+		}
 	}
+	
+	ruling_party = democratic
+	last_election = "1934.11.9"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -81,7 +108,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology = stalinism_ideology
 	traits = {
 		
 	}

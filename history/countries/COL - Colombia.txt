@@ -70,24 +70,45 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 99
+		neutrality = { 
+			popularity = 0
 		}
 
 		fascism = {
 			popularity = 0
 		}
+
+		democratic = {
+			popularity = 10
+		}
 		
 		communism = {
-			popularity = 1
-			#banned = no #default is no
+			popularity = 0
+		}
+		absolute_monarchy = {
+			popularity = 0
+		}
+		liberal = {
+			popularity = 70
+		}
+		social_democracy = {
+			popularity = 20
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1934.2.11"
+	ruling_party = liberal
+	last_election = "1914.11.9"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -106,46 +127,9 @@ create_country_leader = {
 	desc = "POLITICS_MARIANO_OSPINA_PEREZ_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = conservative
 	traits = {
 		#
-	}
-}
-
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 100
-			}
-
-			fascism = {
-				popularity = 0
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1938.5.1"
-		election_frequency = 48  
-		elections_allowed = yes
-	}
-
-	create_country_leader = {
-		name = "Eduardo Santos"
-		desc = "POLITICS_EDUARDO_SANTOS_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_5.dds"
-		expire = "1965.1.1"
-		ideology = liberalism
-		traits = {
-			#
-		}
 	}
 }
 

@@ -51,26 +51,43 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		neutrality = { 
 			popularity = 0
 		}
 
 		fascism = {
 			popularity = 0
 		}
+
+		democratic = {
+			popularity = 0
+		}
 		
 		communism = {
 			popularity = 0
-			#banned = no #default is no
 		}
-		
-		neutrality = { 
+		absolute_monarchy = {
 			popularity = 100
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1936.1.1"
+	ruling_party = absolute_monarchy
+	last_election = "1914.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -80,37 +97,8 @@ create_country_leader = {
 	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
 	picture = "Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = absolutism
 	traits = {
 		#
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 100
-		}
-	}
-	
-	ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
 	}
 }

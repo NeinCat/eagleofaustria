@@ -17,57 +17,14 @@ set_technology = {
 	CAS1 = 1
 }
 
-	
-	oob = "HUN_1939"
-	set_technology = {
-		fighter1 = 1
-		early_bomber = 1
-		tactical_bomber1 = 1
-		gwtank = 1
-		basic_light_tank = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		interwar_antiair = 1
-		tech_engineers = 1
-		tech_mountaineers = 1
-		motorised_infantry = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
 
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		improved_oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
 
 
 set_politics = {
 
 	parties = {
 		neutrality = { 
-			popularity = 0
+			popularity = 5
 		}
 
 		fascism = {
@@ -97,7 +54,7 @@ set_politics = {
 			popularity = 0
 		}
 		militarism = {
-			popularity = 15
+			popularity = 0
 		}
 		fascism = {
 			popularity = 5
@@ -178,34 +135,112 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Béla Imrédy"
+	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
+	picture = "gfx/leaders/HUN/Portrait_HUN_Bela_Imredy.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democracy_ideology
+	traits = {
+		#
+	}
+}
 
+
+
+### Field Marshal
+create_field_marshal = {
+	name = "Hugó Sónyi"
+	portrait_path = "gfx/leaders/HUN/army/Portrait_HUN_Hugo_Sonyi.dds"
+	traits = {
+		defensive_doctrine
+		old_guard
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+### Corps Commander
+create_corps_commander = {
+	name = "Károly Beregfy"
+	portrait_path = "gfx/leaders/HUN/army/Portrait_HUN_Karoly_Beregfy.dds"
+	traits = {
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
 
 create_corps_commander = {
-	name = "Géza Lakatos"
-	gfx = GFX_Portrait_hungary_geza_lakatos
-	traits = {  }
-	skill = 3
-	attack_skill = 3
+	name = "Vilmos Nagy de Nagybaczon"
+	portrait_path = "gfx/leaders/HUN/army/Portrait_HUN_Vilmos_Nagy_de_Nagybaczon.dds"
+	traits = {
+		old_guard
+		fortress_buster
+	}
+	skill = 2
+	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 3
+	planning_skill = 2
 	logistics_skill = 2
 }
 
 create_corps_commander = {
-	name = "Iván Hindy"
-	gfx = GFX_Portrait_hungary_ivan_hindy
-	traits = {  trickster }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
+	name = "Kocsárd Janky"
+	portrait_path = "gfx/leaders/HUN/army/Portrait_HUN_Janky_Kocsard.dds"
+	traits = {
+		old_guard
+		cavalry_officer
+		cavalry_leader
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 4
+	logistics_skill = 2
 }
 
 create_corps_commander = {
-	name = "Károly Beregfy"
-	gfx = GFX_Portrait_hungary_karoly_beregfy
-	traits = { }
+	name = "Béla Miklós"
+	portrait_path = "gfx/leaders/HUN/army/Portrait_HUN_Bela_Miklos.dds"
+	traits = {
+		armor_officer
+		panzer_leader
+		trait_engineer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Géza Lakatos"
+	portrait_path = "gfx/leaders/HUN/army/Portrait_HUN_Geza_Lakatos.dds"
+	traits = {
+		infantry_officer
+		infantry_leader
+		ambusher
+		skilled_staffer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Dezső László"
+	portrait_path = "gfx/leaders/HUN/army/Portrait_HUN_Dezso_Laszlo.dds"
+	traits = {
+	}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -214,9 +249,26 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Gusztáv Jány"
+	portrait_path = "gfx/leaders/HUN/army/Portrait_HUN_Jany_Gusztav.dds"
+	traits = {
+		old_guard
+		trait_engineer
+		skilled_staffer
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
 	name = "Lajos Veress"
-	gfx = GFX_Portrait_hungary_lajos_veress
-	traits = { armor_officer }
+	portrait_path = "gfx/leaders/HUN/army/Portrait_HUN_Lajos_Veress.dds"
+	traits = {
+		armor_officer
+	}
 	skill = 2
 	attack_skill = 2
 	defense_skill = 1
@@ -224,13 +276,42 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
-create_field_marshal = {
-	name = "Ferenc Feketehalmy-Czeydner"
-	gfx = GFX_Portrait_hungary_ferenc_feketehalmy_czeydner
-	traits = { }
+create_corps_commander = {
+	name = "Gusztáv Denk"
+	portrait_path = "gfx/leaders/HUN/army/Portrait_HUN_Gusztav_Denk.dds"
+	traits = {
+		old_guard
+		cavalry_officer
+		cavalry_leader
+	}
 	skill = 2
 	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Szilárd Bakay"
+	portrait_path = "gfx/leaders/HUN/army/Portrait_HUN_Szilard_Bakay.dds"
+	traits = {
+		brilliant_strategist
+		skilled_staffer
+		organizer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+### Navy Leader
+create_navy_leader = { #Auto-Generated
+	name = "Miklós Horthy"
+	portrait_path = "gfx/leaders/HUN/Miklos_Horthy.dds"
+	traits = {
+		old_guard
+	}
+	skill = 2 #naval guy, don't patch
 }

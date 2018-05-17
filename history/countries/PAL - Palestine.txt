@@ -58,28 +58,51 @@ set_convoys = 5
 	}
 }
 
-
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 40
+		neutrality = { 
+			popularity = 0
 		}
 
 		fascism = {
-			popularity = 30
+			popularity = 0
+		}
+
+		democratic = {
+			popularity = 0
 		}
 		
 		communism = {
 			popularity = 30
-			#banned = no #default is no
+		}
+		absolute_monarchy = {
+			popularity = 40
+		}
+		liberal = {
+			popularity = 20
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 10
+		}
+		fascism = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = liberal
+	last_election = "1934.11.9"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -106,7 +129,7 @@ create_country_leader = {
 	name = "Prince Henry"
 	desc = ""
 	picture = "gfx/leaders/PAL/Portrait_Britain_George_VI.dds"
-	ideology = despotism
+	ideology = absolutism
 	traits = {
 		#
 	}
@@ -116,7 +139,7 @@ create_country_leader = {
 	name = "Bulus Farah"
 	desc = ""
 	picture = "gfx/leaders/PAL/Portrait_Arabia_Generic_2.dds"
-	ideology = leninism
+	ideology = marxism
 	traits = {
 		#
 	}

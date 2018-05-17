@@ -66,28 +66,47 @@ set_technology = {
 }
 
 set_convoys = 10
+
 set_politics = {
 
 	parties = {
-		democratic = { 
+		neutrality = { 
 			popularity = 0
 		}
 
 		fascism = {
 			popularity = 0
 		}
+
+		democratic = {
+			popularity = 0
+		}
 		
 		communism = {
 			popularity = 0
 		}
-		
-		neutrality = { 
-			popularity = 100
+		absolute_monarchy = {
+			popularity = 50
+		}
+		liberal = {
+			popularity = 0
+		}
+		social_democracy = {
+			popularity = 0
+		}
+		stalinism = {
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 20
+		}
+		militarism = {
+			popularity = 30
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1936.1.1"
+	ruling_party = absolute_monarchy
+	last_election = "1914.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -97,7 +116,7 @@ create_country_leader = {
 	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
 	picture = "Portrait_Iran_Reza_Shah_Pahlavi.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = absolutism
 	traits = {
 		#
 	}
@@ -120,7 +139,7 @@ create_country_leader = {
 	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = anarchist_communism
+	ideology = anarchism_ideology
 	traits = {
 		#
 	}

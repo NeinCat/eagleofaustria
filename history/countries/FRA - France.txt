@@ -143,30 +143,48 @@ set_convoys = 300
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 69
+		neutrality = { 
+			popularity = 0
 		}
 
 		fascism = {
-			popularity = 1
+			popularity = 0
+		}
+
+		democratic = {
+			popularity = 30
 		}
 		
 		communism = {
-			popularity = 30
+			popularity = 0
+		}
+		absolute_monarchy = {
+			popularity = 0
+		}
+		liberal = {
+			popularity = 10
+		}
+		social_democracy = {
+			popularity = 50
+		}
+		stalinism = {
+			popularity = 10
+		}
+		anarchism = {
+			popularity = 0
+		}
+		militarism = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1932.5.1"
+	ruling_party = social_democracy
+	last_election = "1914.11.9"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 add_ideas = {
-	FRA_victors_of_wwi
-	FRA_disjointed_government
-	FRA_protected_by_the_maginot_line
-	limited_conscription
 }
 
 #give_guarantee = CZE
@@ -199,7 +217,7 @@ create_country_leader = {
 	desc = "POLITICS_MAURICE_THOREZ_DESC"
 	picture = "GFX_portrait_fra_maurice_thorez"
 	expire = "1965.1.1"
-	ideology = 	stalinism
+	ideology = 	stalinism_ideology
 	traits = {
 		
 	}
